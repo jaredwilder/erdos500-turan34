@@ -1,0 +1,112 @@
+{
+  "checks": {
+    "H1_M2_collision": {
+      "canonical_min_repairs": 3,
+      "compatible_pairs": 12,
+      "minimum_completion": 13,
+      "orbits": 1
+    },
+    "M2_M2_gluing": {
+      "compatible_pairs": 30,
+      "minimum_completion": 12
+    },
+    "Razborov_local": {
+      "extension_numbers": {
+        "H1": 2,
+        "H2": 2,
+        "H3": 1
+      },
+      "profiles": {
+        "H1": {
+          "2": 4,
+          "4": 1
+        },
+        "H2": {
+          "3": 4,
+          "4": 1
+        },
+        "H3": {
+          "3": 2,
+          "4": 3
+        }
+      }
+    },
+    "c7_lower_human": {
+      "contradiction": "pair codegree zero in minimum six-cover",
+      "hypothetical_degree_multiset": "5^5 4^2",
+      "type_counts": {
+        "HHH": 6,
+        "HHL": 2,
+        "HLL": 3
+      }
+    },
+    "exact_staircase": {
+      "W7_deletion_excess": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "W8_deletion_excess": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "W9_degrees": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "c7": 12,
+      "c8": 20,
+      "c9": 30
+    },
+    "optional_scipy_milp": {
+      "7": 12,
+      "8": 20,
+      "9": 30
+    },
+    "rotor": {
+      "automorphisms": 24,
+      "four_profile": {
+        "1": 12,
+        "2": 3
+      },
+      "pair_codegrees": {
+        "1": 12,
+        "2": 3
+      }
+    },
+    "small_values": {
+      "c4": 1,
+      "c5": 3,
+      "c6": 6,
+      "labeled_minima": [
+        4,
+        30,
+        30
+      ],
+      "orbits": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "receipt_sha256": "ae9f11ad22fa032a0c7b21e06a8ebcc915a9c01fd688fe25b0770d9de4aa4069",
+  "status": "PASS"
+}

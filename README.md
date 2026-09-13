@@ -18,3 +18,17 @@ Exact public source bytes are migrated under:
 - `records/` — compact #500 material already routed through `combinatorial-records`.
 
 No bounded computation is promoted into a global Turán theorem, and historical novelty remains a separate literature question.
+
+## Recovered original source packet — 2026-09-13
+
+This original 78-record source variant complements the existing 76-record reconstructed program. The variants remain separate. Eighteen records are explicitly unproved targets. The standard-library finite checks passed on 2026-09-13; the optional SciPy MILP check was not run. This does not solve the Turan (3,4) problem or establish novelty.
+
+- [Original record table](program/original-forge-2026-08-04/ERDOS-500-THEOREM-RECORDS.jsonl)
+- [Source packet](program/original-forge-2026-08-04/)
+- [Source hashes and observed status counts](verification/source-packet.json)
+
+Run `python verification/verify_source_packet.py` to verify all recovered source bytes, original JSON manifests when present, and record counts.
+
+### Finite replay
+
+Run `python verification/replay_packet.py --receipt verification/local-replay.json`. The runner uses a temporary copy and preserves the original packet and historical receipts. See the [2026-09-13 replay receipt](verification/replay-2026-09-13.json).

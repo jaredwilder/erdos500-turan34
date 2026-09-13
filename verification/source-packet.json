@@ -1,0 +1,74 @@
+{
+  "source_archive": "ERDOS-500-ENCIRCLEMENT-THEOREM-FORGE-PACKET.zip",
+  "source_archive_bytes": 62904,
+  "source_archive_sha256": "2dde70a02efcebe22ff2e0a3e50814d47af5ca682e57b193e623f22d08704104",
+  "packet_path": "program/original-forge-2026-08-04",
+  "records_path": "program/original-forge-2026-08-04/ERDOS-500-THEOREM-RECORDS.jsonl",
+  "record_count": 78,
+  "status_counts": {
+    "PROVED_IN_PACKET": 43,
+    "FINITE_EXHAUSTIVE_THIS_RUN": 7,
+    "PROVED_FROM_FINITE_BASE_AND_WITNESS": 1,
+    "COMPUTATIONAL_WITNESS_THIS_RUN": 1,
+    "PROVED_FROM_RECURRENCE_AND_WITNESS": 2,
+    "PROVED_SHARP_BOUND": 1,
+    "PROVED_BY_FINITE_CENSUS_AND_HUMAN_REPAIR": 1,
+    "PROVED_NEGATIVE_THEOREM": 1,
+    "PROVED_EQUIVALENCE": 1,
+    "PROVED_ANALYTIC": 1,
+    "PUBLISHED_SOURCE_BOUND": 1,
+    "UNPROVED_CHECKABLE_TARGET": 18
+  },
+  "original_manifest_entries_verified": 7,
+  "scope": "This original 78-record source variant complements the existing 76-record reconstructed program. The variants remain separate. Eighteen records are explicitly unproved targets. The standard-library finite checks passed on 2026-09-13; the optional SciPy MILP check was not run. This does not solve the Turan (3,4) problem or establish novelty.",
+  "files": [
+    {
+      "source_member": "erdos500_theorem_forge/ERDOS-500-THEOREM-RECORDS.jsonl",
+      "public_path": "program/original-forge-2026-08-04/ERDOS-500-THEOREM-RECORDS.jsonl",
+      "bytes": 80215,
+      "sha256": "7086530326a826419767e12f8a0e5832b00d95d39dad1d709c49f170117b7eb3"
+    },
+    {
+      "source_member": "erdos500_theorem_forge/ERDOS-500-NOVELTY-QUEUE.tsv",
+      "public_path": "program/original-forge-2026-08-04/ERDOS-500-NOVELTY-QUEUE.tsv",
+      "bytes": 18033,
+      "sha256": "acdd8859e02e6173003748115c79dee5eef3ca3b8effb7c9f18f8742c77e500e"
+    },
+    {
+      "source_member": "erdos500_theorem_forge/verify_erdos500_packet.py",
+      "public_path": "program/original-forge-2026-08-04/verify_erdos500_packet.py",
+      "bytes": 10472,
+      "sha256": "0b41c32f3b0866a65c5a086d785a0534b035d0b3d341a01eaad621d2009f2c44"
+    },
+    {
+      "source_member": "erdos500_theorem_forge/ERDOS-500-ENCIRCLEMENT-THEOREM-FORGE.md",
+      "public_path": "program/original-forge-2026-08-04/ERDOS-500-ENCIRCLEMENT-THEOREM-FORGE.md",
+      "bytes": 84340,
+      "sha256": "e0f09347c2561aba89eb7de5c79328b8a44f2e8b6d0a976b01047d2cf9673644"
+    },
+    {
+      "source_member": "erdos500_theorem_forge/ERDOS-500-LEAN-MISSION-QUEUE.md",
+      "public_path": "program/original-forge-2026-08-04/ERDOS-500-LEAN-MISSION-QUEUE.md",
+      "bytes": 2456,
+      "sha256": "3e69642dc95459034881ec652bad11489b12ccde02c24b0fe5798e86c9cba604"
+    },
+    {
+      "source_member": "erdos500_theorem_forge/MANIFEST.json",
+      "public_path": "program/original-forge-2026-08-04/MANIFEST.json",
+      "bytes": 1162,
+      "sha256": "5b79c3915d4922c280cc829ecc9ecbb0620a1328053b444bfd7140cb3acb9768"
+    },
+    {
+      "source_member": "erdos500_theorem_forge/README.md",
+      "public_path": "program/original-forge-2026-08-04/README.md",
+      "bytes": 870,
+      "sha256": "2faca0aefa6ae405699fe6ac56acd09454065088c7161150537d79925225aebe"
+    },
+    {
+      "source_member": "erdos500_theorem_forge/ERDOS-500-VERIFICATION-RECEIPT.json",
+      "public_path": "program/original-forge-2026-08-04/ERDOS-500-VERIFICATION-RECEIPT.json",
+      "bytes": 1845,
+      "sha256": "a9411388180190093d985e3614acb5b97b04b2f0ef645b98feda687cb7f24e3c"
+    }
+  ]
+}

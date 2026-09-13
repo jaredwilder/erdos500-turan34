@@ -1,0 +1,35 @@
+{
+  "close_attempt_count": 6,
+  "files": {
+    "ERDOS-500-ENCIRCLEMENT-THEOREM-FORGE.md": {
+      "bytes": 84340,
+      "sha256": "e0f09347c2561aba89eb7de5c79328b8a44f2e8b6d0a976b01047d2cf9673644"
+    },
+    "ERDOS-500-LEAN-MISSION-QUEUE.md": {
+      "bytes": 2456,
+      "sha256": "3e69642dc95459034881ec652bad11489b12ccde02c24b0fe5798e86c9cba604"
+    },
+    "ERDOS-500-NOVELTY-QUEUE.tsv": {
+      "bytes": 18033,
+      "sha256": "acdd8859e02e6173003748115c79dee5eef3ca3b8effb7c9f18f8742c77e500e"
+    },
+    "ERDOS-500-THEOREM-RECORDS.jsonl": {
+      "bytes": 80215,
+      "sha256": "7086530326a826419767e12f8a0e5832b00d95d39dad1d709c49f170117b7eb3"
+    },
+    "ERDOS-500-VERIFICATION-RECEIPT.json": {
+      "bytes": 1845,
+      "sha256": "a9411388180190093d985e3614acb5b97b04b2f0ef645b98feda687cb7f24e3c"
+    },
+    "README.md": {
+      "bytes": 870,
+      "sha256": "2faca0aefa6ae405699fe6ac56acd09454065088c7161150537d79925225aebe"
+    },
+    "verify_erdos500_packet.py": {
+      "bytes": 10472,
+      "sha256": "0b41c32f3b0866a65c5a086d785a0534b035d0b3d341a01eaad621d2009f2c44"
+    }
+  },
+  "generated": "2026-08-04T19:13:20.146056Z",
+  "record_count": 78
+}

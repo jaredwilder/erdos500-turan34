@@ -1,0 +1,131 @@
+{
+  "ok": true,
+  "source_script": "program/original-forge-2026-08-04/verify_erdos500_packet.py",
+  "source_script_sha256": "0b41c32f3b0866a65c5a086d785a0534b035d0b3d341a01eaad621d2009f2c44",
+  "invocation": [
+    "python",
+    "-X",
+    "utf8",
+    "-S",
+    "verify_erdos500_packet.py"
+  ],
+  "source_integrity": {
+    "ok": true,
+    "source_files": 8,
+    "source_records": 78,
+    "original_manifest_entries": 7,
+    "scope": "Source integrity and structure; not independent theorem certification."
+  },
+  "path_adaptations_in_temporary_copy": [],
+  "scope": "Bundled finite/source checks rerun. No global conjecture closure, Lean certificate or novelty claim. Site packages disabled; optional SciPy MILP is not part of this replay.",
+  "result": {
+    "checks": {
+      "H1_M2_collision": {
+        "canonical_min_repairs": 3,
+        "compatible_pairs": 12,
+        "minimum_completion": 13,
+        "orbits": 1
+      },
+      "M2_M2_gluing": {
+        "compatible_pairs": 30,
+        "minimum_completion": 12
+      },
+      "Razborov_local": {
+        "extension_numbers": {
+          "H1": 2,
+          "H2": 2,
+          "H3": 1
+        },
+        "profiles": {
+          "H1": {
+            "2": 4,
+            "4": 1
+          },
+          "H2": {
+            "3": 4,
+            "4": 1
+          },
+          "H3": {
+            "3": 2,
+            "4": 3
+          }
+        }
+      },
+      "c7_lower_human": {
+        "contradiction": "pair codegree zero in minimum six-cover",
+        "hypothetical_degree_multiset": "5^5 4^2",
+        "type_counts": {
+          "HHH": 6,
+          "HHL": 2,
+          "HLL": 3
+        }
+      },
+      "exact_staircase": {
+        "W7_deletion_excess": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "W8_deletion_excess": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "W9_degrees": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "c7": 12,
+        "c8": 20,
+        "c9": 30
+      },
+      "optional_scipy_milp": {
+        "skipped": "ModuleNotFoundError(\"No module named 'numpy'\")"
+      },
+      "rotor": {
+        "automorphisms": 24,
+        "four_profile": {
+          "1": 12,
+          "2": 3
+        },
+        "pair_codegrees": {
+          "1": 12,
+          "2": 3
+        }
+      },
+      "small_values": {
+        "c4": 1,
+        "c5": 3,
+        "c6": 6,
+        "labeled_minima": [
+          4,
+          30,
+          30
+        ],
+        "orbits": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "receipt_sha256": "d6abd3b9da6fa40f699f973f46d47b0ede461445c5629712f0cd105dd21caf9e",
+    "status": "PASS"
+  }
+}
